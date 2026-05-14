@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Sanketh | Data Analyst Portfolio
+    </title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+            Sanketh
+        </div>
+
+        <nav>
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero"
+        id="home">
+
+        <div class="hero-content">
+
+            <h1>
+
+                Hi, I'm
+
+                <span>Sanketh</span>
+
+            </h1>
+
+            <h3>
+
+                Data Analyst |
+                Data Scientist
+
+            </h3>
+
+            <p>
+
+                Skilled in Power BI,
+                SQL, Python,
+                Machine Learning,
+                Tableau,
+                Dashboard Development,
+                and Data Analytics.
+
+            </p>
+
+            <!-- HERO BUTTONS -->
+
+            <div class="hero-buttons">
+
+                <a href="#projects"
+                    class="btn">
+
+                    View Projects
+
+                </a>
+
+                <a href="resume.pdf"
+                    class="btn resume-btn"
+                    download>
+
+                    Download Resume
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="section"
+        id="about">
+
+        <h2 class="section-title">
+
+            About Me
+
+        </h2>
+
+        <div class="about-box">
+
+            Passionate Data Analyst focused on
+            transforming raw data into actionable
+            business insights using analytics,
+            machine learning,
+            and visualization tools.
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section class="section"
+        id="skills">
+
+        <h2 class="section-title">
+
+            My Skills
+
+        </h2>
+
+        <!-- BUTTONS -->
+
+        <div class="skill-tabs">
+
+            <button class="tab-btn active"
+                onclick="showSkills('analytics')">
+
+                Data Analytics
+
+            </button>
+
+            <button class="tab-btn"
+                onclick="showSkills('datascience')">
+
+                Data Science
+
+            </button>
+
+            <button class="tab-btn"
+                onclick="showSkills('database')">
+
+                Database
+
+            </button>
+
+            <button class="tab-btn"
+                onclick="showSkills('tools')">
+
+                Tools
+
+            </button>
+
+        </div>
+
+        <!-- SKILLS CONTENT -->
+
+        <div class="tab-content">
+
+            <!-- ANALYTICS -->
+
+            <div class="skills-box active"
+                id="analytics">
+
+                <div class="skill-card">
+                    Power BI
+                </div>
+
+                <div class="skill-card">
+                    Tableau
+                </div>
+
+                <div class="skill-card">
+                    SQL
+                </div>
+
+                <div class="skill-card">
+                    Excel
+                </div>
+
+                <div class="skill-card">
+                    Dashboard Development
+                </div>
+
+                <div class="skill-card">
+                    Data Visualization
+                </div>
+
+            </div>
+
+            <!-- DATA SCIENCE -->
+
+            <div class="skills-box"
+                id="datascience">
+
+                <div class="skill-card">
+                    Python
+                </div>
+
+                <div class="skill-card">
+                    Machine Learning
+                </div>
+
+                <div class="skill-card">
+                    Pandas
+                </div>
+
+                <div class="skill-card">
+                    NumPy
+                </div>
+
+                <div class="skill-card">
+                    Scikit-learn
+                </div>
+
+                <div class="skill-card">
+                    TensorFlow
+                </div>
+
+                <div class="skill-card">
+                    EDA
+                </div>
+
+            </div>
+
+            <!-- DATABASE -->
+
+            <div class="skills-box"
+                id="database">
+
+                <div class="skill-card">
+                    PostgreSQL
+                </div>
+
+                <div class="skill-card">
+                    SQL Server
+                </div>
+
+                <div class="skill-card">
+                    Oracle
+                </div>
+
+                <div class="skill-card">
+                    Databricks
+                </div>
+
+                <div class="skill-card">
+                    PySpark
+                </div>
+
+                <div class="skill-card">
+                    Azure
+                </div>
+
+            </div>
+
+            <!-- TOOLS -->
+
+            <div class="skills-box"
+                id="tools">
+
+                <div class="skill-card">
+                    GitHub
+                </div>
+
+                <div class="skill-card">
+                    Streamlit
+                </div>
+
+                <div class="skill-card">
+                    VS Code
+                </div>
+
+                <div class="skill-card">
+                    Jupyter Notebook
+                </div>
+
+                <div class="skill-card">
+                    Power Query
+                </div>
+
+                <div class="skill-card">
+                    Power BI Service
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section class="section"
+        id="projects">
+
+        <h2 class="section-title">
+
+            Projects
+
+        </h2>
+
+        <div class="project-grid">
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <img src="images/heart.jpg">
+
+                <div class="project-info">
+
+                    <h3>
+                        Heart Disease Prediction
+                    </h3>
+
+                    <p>
+
+                        Machine Learning project
+                        using Python,
+                        Streamlit,
+                        and Scikit-learn.
+
+                    </p>
+
+                    <!-- BUTTONS -->
+
+                    <div class="project-buttons">
+
+                        <button class="github-btn"
+                            onclick="window.open('https://github.com/sankethkulal','_blank')">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            GitHub
+
+                        </button>
+
+                        <button class="live-btn"
+                            onclick="window.open('https://yourliveproject.com','_blank')">
+
+                            Live Demo
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <img src="images/breast.jpg">
+
+                <div class="project-info">
+
+                    <h3>
+                        Breast Cancer Prediction
+                    </h3>
+
+                    <p>
+
+                        Classification project
+                        with deployment.
+
+                    </p>
+
+                    <div class="project-buttons">
+
+                        <button class="github-btn"
+                            onclick="window.open('https://github.com/sankethkulal','_blank')">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            GitHub
+
+                        </button>
+
+                        <button class="live-btn"
+                            onclick="window.open('https://yourliveproject.com','_blank')">
+
+                            Live Demo
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <img src="images/dashboard.jpg">
+
+                <div class="project-info">
+
+                    <h3>
+                        Power BI Dashboard
+                    </h3>
+
+                    <p>
+
+                        Interactive business dashboard
+                        with KPIs and analytics.
+
+                    </p>
+
+                    <div class="project-buttons">
+
+                        <button class="github-btn"
+                            onclick="window.open('https://github.com/sankethkulal','_blank')">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            GitHub
+
+                        </button>
+
+                        <button class="live-btn"
+                            onclick="window.open('https://yourliveproject.com','_blank')">
+
+                            Live Demo
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="section"
+        id="contact">
+
+        <h2 class="section-title">
+
+            Contact
+
+        </h2>
+
+        <div class="contact-box">
+
+            <p>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                yourmail@gmail.com
+
+            </p>
+
+            <p>
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                linkedin.com/in/yourprofile
+
+            </p>
+
+            <p>
+
+                <i class="fa-brands fa-github"></i>
+
+                github.com/sankethkulal
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- JAVASCRIPT -->
+
+    <script>
+
+        function showSkills(category) {
+
+            let boxes =
+                document.querySelectorAll('.skills-box');
+
+            boxes.forEach(box => {
+
+                box.classList.remove('active');
+
+            });
+
+            document
+                .getElementById(category)
+                .classList.add('active');
+
+            let buttons =
+                document.querySelectorAll('.tab-btn');
+
+            buttons.forEach(btn => {
+
+                btn.classList.remove('active');
+
+            });
+
+            event.target.classList.add('active');
+
+        }
+
+    </script>
+
+</body>
+
+</html>
